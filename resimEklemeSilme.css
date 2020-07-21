@@ -1,0 +1,143 @@
+body{  
+     margin:20px;
+}
+.headercss{  
+
+   background-color:#0099cc;
+   width:%100;
+   height:120px;
+   border:2px solid black;
+   
+   }
+.logocss{   
+
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:70px;
+  border:2px solid black;
+  border-radius:15px;
+  float:left;
+
+   }
+.baslikcss{
+	
+	border:3px solid white;
+	width:600px;
+	height:90px;
+	margin-right:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#0099cc;
+	float:right;
+	
+   }
+p.yazi{
+   font-weight:bold;
+   color:white;
+   font-size:30px;
+   height:20px;
+   text-align:center;
+}
+
+.govdecss{
+	
+	background-color:#66b2ff;
+	width:%100;
+	height:650px;
+    border:2px solid black;
+	
+}
+.anaresim{
+	height:160px;
+	width:350px;
+	border:2px solid black;
+	border-radius:25px;
+	clear:both;
+	margin:35px;
+    box-shadow:#1f1f14 10px 10px 10px;
+}
+#footercss{
+   position:fixed;
+   
+   left:20px;
+   bottom:0;
+   background-color:#0099cc;
+   width:1305px;
+   height:100px;
+   font-weight:bold;
+   border:2px solid black;
+   color:white;
+}
+
+a{
+    color:white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:hover {
+    color:yellow;
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+button{
+	color:white;
+	width:130px;
+	height:50px;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	margin-left:30px;
+	margin-right:10px;
+	border:2px solid ;
+}
+.baslik{
+	color:white;
+	font-weight:bold;
+	border-width:20px;
+	border:2px solid white;
+	text-align:center;
+	float:right;
+	margin-top:-225px;
+	margin-right:240px;
+	text-shadow:#1f1f14 10px 10px 10px;
+}
+.makale{ 
+   float:right;
+   width:700px;
+   height:200px;
+   font-size:20px;
+   color:white;
+   margin-top:-120px;
+   margin-right:90px;
+   text-align:justify;
+}
+
+.resimarka{
+	
+	height:200px;
+	width:90%;
+	background-color:white;
+	border:3px solid #0099cc;
+	margin-left:65px;
+	margin-top:40px;
+	clear:both;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	 white-space: nowrap;
+}
+.resimkucuk{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:50px;
+	margin-bottom:50px;
+	box-shadow:#1f1f14 5px 5px 5px;
+	border:1px solid black;
+	border-radius:20px;
+	width:200px;
+	height:100px;
+    
+   
+}
+
+
