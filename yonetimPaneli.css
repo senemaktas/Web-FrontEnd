@@ -1,0 +1,77 @@
+body{
+	margin:0px;
+	background:linear-gradient(blue,#0080FF,#66B2FF);
+	hsl:(195, 60%, 90%);
+}
+
+.anagovde{
+	height:550px ;
+	width:500px;
+	background-color:#002080;
+	margin-left:400px;
+	border:2px solid white;
+	border-radius:20px;
+	box-shadow:5px 6px 6px white;
+}
+
+p.baslik{
+	text-align:center;
+	text-decoration:underline;
+	color:#ff9900;
+	font-weight:bold;
+	font-size:30px;
+	margin-top:30px;
+}
+.formcss{
+	font-weight:bold;
+	font-size:25px;
+	color:white;
+	float:left;
+}
+input[type=text]{  
+    border:2px solid black;
+    height:20px;
+    margin:5px;
+	}
+ input[type=password]{
+    border:2px solid black;
+	height:20px;
+    margin:5px;
+}
+button{
+    width:90px;
+	height:50px;
+    border:2px solid white;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:20px;
+	background:linear-gradient(to bottom,blue,#0080FF,#66B2FF);
+}
+
+ input[type=reset]{
+	 
+	width:90px;
+	height:50px;
+    border:2px solid white;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:20px;
+	background:linear-gradient(to bottom,blue,#0080FF,#66B2FF); 
+    	
+ }
+
+
+.resim{
+	color:white;
+	width:180px;
+	height:200px;
+	border:2px solid navy;
+	border-radius:20px;
+}
+a{
+	color:white;
+	font-weight:bold;
+	text-decoration:underline;
+	clear:both;
+}
+
