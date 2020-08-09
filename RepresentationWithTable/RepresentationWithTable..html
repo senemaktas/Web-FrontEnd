@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!-- Setting the viewport to make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Application with table</title>
+    <link rel="stylesheet" href="/home/sidney/gitCoding/RepresentationWithTable.css"/>
+</head>
+
+<body>
+
+  <header>
+    <h5>HI THERE! I AM SAKURA ICHIKA 
+      <img class="logocss" width="65" height="65"  src="/home/sidney/Desktop/panda.png" alt="panda"/></h5>
+  </header>
+
+    <a name="pageup"></a>
+    <table border="2" widht="500" bgcolor="#c1b9e7">
+   <tr> 
+       <td height="75" rowspan="3"><div class="zoom">
+        <img src="/home/sidney/Desktop/profilehtml.png" width="257" height="260"></div> </td>
+       <td height="25" ><font size="3"><strong>NAME</strong></font> </td>
+       <td height="25" ><font size="2"><strong> Sakura (咲良)</strong> </font> </td>
+   </tr>
+  <tr>
+    <td height="25" ><font size="3"><strong>SURNAME</strong></font> </td>
+    <td height="25" ><font size="2"><strong> Ichika (一千花)</strong> </font> </td>
+  </tr>
+  <tr>
+    <td height="25" ><font size="3"><strong>STUDENT ID</strong></font> </td>
+    <td height="25" ><font size="2"><strong> 125497549</strong></font> </td>
+  </tr>
+  <tr>
+    <td height="25" colspan="3"><font size="3"><strong>BRITHDAY DATE</strong></font> 
+         <font size="2"> <strong>08.08.1998</strong></font> </td>
+  </tr>
+  <tr>
+    <td height="25" colspan="3"><font size="3"><strong>BRITHDAY PLACE</strong></font> 
+        <font size="2"><a href="#bplace"><strong>New York</strong></a></font> </td>
+  </tr>
+  <tr>
+    <td height="25" colspan="3"><font size="3"><strong>HOMETOWN</strong></font> 
+        <font size="2"><a href="#hometown"><strong>Japon</strong></a></font> </td>
+  </tr>
+    </table> <br/><br/><br/><br/><br/>
+
+    <div class="vr">
+    <a name="bplace"></a><strong>NEW YORK CITY</strong><br/><br/>
+    <p style="text-align: justify;"> New York City, often called simply New York and abbreviated as NYC, is the most 
+    populous city in the United States. With an estimated 2019 population of 8,336,817 distributed over about 302.6 square
+    miles (784 km2), New York City is also the most densely populated major city in the United States.[11] Located at the 
+    southern tip of the U.S. state of New York, the city is the center of the New York metropolitan area, the largest
+    metropolitan area in the world by urban landmass. With almost 20 million people in its metropolitan statistical area 
+    and approximately 23 million in its combined statistical area, it is one of the world's most populous megacities. 
+    New York City has been described as the cultural, financial, and media capital of the world, significantly influencing
+    commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports. Home to the 
+    headquarters of the United Nations, New York is an important center for international diplomacy. New York City is 
+    sometimes referred to collectively as the Five Boroughs. </p> 
+    <ul type="circle">
+    <li>Manhattan</li>
+    <li> Brooklyn</li>
+    <li>Queens</li>
+    <li>The Bronx</li>
+    <li>Staten Island</li>
+    </ul> <br/>
+    </div>
+
+    <div class="vl">
+    <a name="hometown"></a><strong>JAPON</strong><br/><br/>
+    <p style="text-align: justify;"> Japan (Japanese: 日本, Nippon [ɲippoꜜɴ] (About this soundlisten) or Nihon [ɲihoꜜɴ] (About this soundlisten)) is an island
+    country of East Asia in the northwest Pacific Ocean. It borders the Sea of Japan to the west and extends from the Sea of 
+    Okhotsk in the north to the East China Sea and Taiwan in the south. Japan is part of the Pacific Ring of Fire and comprises
+    an archipelago of 6,852 islands covering 377,975 square kilometers (145,937 sq mi); its five main islands, from north to
+    south, are Hokkaido, Honshu, Shikoku, Kyushu, and Okinawa. Tokyo is the country's capital and largest city; other major
+    cities include Osaka and Nagoya. Japan is the 11th most populous country in the world, as well as one of the most densely 
+    populated and urbanized. About three-fourths of the country's terrain is mountainous, concentrating its population of 
+    126.2 million on narrow coastal plains. Japan is administratively divided into 47 prefectures and traditionally divided 
+    into eight regions. Some Things You Should Know About Japan </p> 
+
+    <ol type="1" start="1">
+    <li>Capsule Hotels</li>
+    <li>High Literacy Rate</li>
+    <li>The Secret of Longevity</li>
+    <li>Land of Robots</li>
+    <li>20 Ways to Apologize</li>
+    </ol> <br/>
+    </div>
+
+
+  <div class="sendmessage">
+    <br/><h2 style="text-align:center">Sent me message!</h2>
+
+    <form action="">
+      <div class="informations">
+      &nbsp &nbsp &nbsp &nbsp <input type="text" name="isim" maxlength="20" placeholder="Name" required/> &nbsp <br/><br/>
+			&nbsp &nbsp &nbsp &nbsp <input type="text" name="soyad" maxlength="20"  placeholder="Surname" required /> &nbsp <br/><br/>
+			&nbsp &nbsp &nbsp &nbsp <input type="text" name="eposta" placeholder="E-mail address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required /> 
+      &nbsp <br/><br/>
+      &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp <input type = "submit" value = "submit" /> 
+      &nbsp &nbsp <input type="reset" value="Reset" />
+    </div>
+
+     <div align="right" id="textareaid">
+      <textarea name="message_to_me" rows="10" cols="50" autofocus placeholder="type here...."></textarea>
+      </div>  
+      </form>
+  </div>
+
+
+    <footer id="footercss">
+      <p> &nbsp &nbsp &nbsp &nbsp  Desingned by Senem Aktaş ..</p>
+      &nbsp &nbsp &nbsp &nbsp <a href="https://www.stackoverflow.com" target="_blank">Stack overflow </a>|
+      <a href="https://www.youtube.com" target="_blank"> &nbsp Youtube </a> | 
+      <a href="https://tr.linkedin.com" target="_blank"> &nbsp LinkedIn </a>
+      <a href="#pageup">| Go up 	&uarr; |</a>
+      </footer>
+
+</body>
+</html>
