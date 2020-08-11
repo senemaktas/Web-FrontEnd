@@ -1,8 +1,7 @@
 body{
     background-color: azure;
     height: auto;
-    margin: 0;
-    
+    margin: 0;  
 }
 
 table{
@@ -13,7 +12,9 @@ table{
 
 /* Style the header */
 header {
-  background-color: rgb(252, 26, 120);
+  background-color: rgb(206, 18, 127); 
+  /*background:linear-gradient(rgb(252, 26, 120),rgb(72, 45, 168)); 
+  background:linear-gradient(rgb(206, 18, 127),rgb(234, 241, 237));*/
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
@@ -22,9 +23,14 @@ header {
   width: 100%;
 }
 
+ input{
+  background-color:azure; 
+  color:black;
+ }
+
 #footercss{
   position:fixed;
-  background-color:  rgb(150, 35, 35);
+  background-color:rgb(206, 18, 127);
   text-align: center;
   color: white;
   width: 100%;
@@ -33,8 +39,51 @@ header {
   font-weight:bold;
 }
 
+.logocss{
+  border-radius:25px;
+}
+
+ /* Style the navbar */
+ #navbar {
+  overflow: hidden;
+  background-color: rgb(3, 3, 3);
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation
+ bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+
+.topnav-right {
+  float: right;
+}
+
 .sendmessage{
-  background-image: url("/home/sidney/Desktop/flower.png");
+  background-image: url("img/flower.png");
+  background-size: cover;
   height: 300px;
   width: 100%;
   background-repeat: no-repeat;
@@ -48,11 +97,12 @@ header {
 
 #textareaid{
 margin-left:  50%;
-margin-top: -15%;
+margin-top: -12%;
 margin-right: 20%;
 overflow: auto;
 width: 400px;
 height:100%;
+border-radius: 15px 50px; 
 }
 
 .informations{
@@ -60,7 +110,7 @@ height:100%;
 }
 
 .vl {
-  border-left: 4px solid rgb(229, 235, 229);
+  border-left: 4px solid rgb(206, 18, 127);
   height: 500px;
   position: absolute;
   left: 50%;
@@ -82,25 +132,31 @@ height:100%;
 }
 
 
+.slideshowimage {
+  max-width:400px;
+  height: 300px;
+  margin-top: 550px;
+  margin-bottom:-50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /*HTML Link Colors : https://www.w3schools.com/html/html_links_colors.asp */
 a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
   }
-  
   a:visited {
     color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
-  
   a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
   }
-  
   a:active {
     color: yellow;
     background-color: transparent;
@@ -111,15 +167,14 @@ a:link {
 * {
     box-sizing: border-box;
   }
-
   .zoom {
     transition: transform .2s;
     width: 257px;
     height: 260px;
     margin: 0 auto;
-    background-image: url("/home/sidney/Desktop/profilehtml.png");
+    background-image: url("img/profilehtml.png");
   }
-  
+
   .zoom:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
