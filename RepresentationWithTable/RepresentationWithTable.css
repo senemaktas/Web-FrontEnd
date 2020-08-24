@@ -1,15 +1,3 @@
-body{
-    background-color: azure;
-    height: auto;
-    margin: 0;  
-}
-
-table{
-    width: 600px;
-    margin-left: 25px;
-    margin-top: 45px;
-}
-
 /* Style the header */
 header {
   background-color: rgb(206, 18, 127); 
@@ -21,22 +9,6 @@ header {
   font-size: 35px;
   color: white;
   width: 100%;
-}
-
- input{
-  background-color:azure; 
-  color:black;
- }
-
-#footercss{
-  position:fixed;
-  background-color:rgb(206, 18, 127);
-  text-align: center;
-  color: white;
-  width: 100%;
-  height: 80px;
-  bottom:0;
-  font-weight:bold;
 }
 
 .logocss{
@@ -59,11 +31,6 @@ header {
   text-decoration: none;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
-}
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -81,6 +48,28 @@ header {
   float: right;
 }
 
+body{
+    background-color: azure;
+    height: auto;
+    margin: 0;  
+}
+
+table{
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+input{
+  background-color:azure; 
+  color:black;
+ }
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
 .sendmessage{
   background-image: url("img/flower.png");
   background-size: cover;
@@ -89,9 +78,7 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  padding-bottom: 50px;
   margin-top: 65%;
-  margin-bottom: 100px;
   color:white;
 }
 
@@ -131,24 +118,76 @@ border-radius: 15px 50px;
   top: 0;
 }
 
-
 .slideshowimage {
   max-width:400px;
   height: 300px;
   margin-top: 550px;
   margin-bottom:-50%;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/*HTML Link Colors : https://www.w3schools.com/html/html_links_colors.asp */
+#socialMedia{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(236, 227, 216);
+  padding-bottom: 100px;
+  opacity: 1.0;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  bottom: 100px;
+  opacity: 1.0;
+  margin: 5px 2px;
+  border-radius:50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 480px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+#footercss{
+  position:fixed;
+  background-color:rgb(206, 18, 127);
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 80px;
+  bottom:0;
+  font-weight:bold;
+}
+
+/*HTML Link Colors : https://www.w3schools.com/html/html_links_colors.asp 
 a:link {
-    color: green;
+    color: rgb(25, 190, 25);
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(236, 31, 31);
     background-color: transparent;
     text-decoration: none;
   }
@@ -161,7 +200,7 @@ a:link {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-  }
+  } */
  
 /* Zoom on Hover : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
 * {
