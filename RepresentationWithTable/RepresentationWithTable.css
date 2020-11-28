@@ -1,6 +1,6 @@
 /* Style the header */
 header {
-  background-color: rgb(206, 18, 127); 
+  background-color: rgb(0, 0, 0); 
   /*background:linear-gradient(rgb(252, 26, 120),rgb(72, 45, 168)); 
   background:linear-gradient(rgb(206, 18, 127),rgb(234, 241, 237));*/
   padding-top: 5px;
@@ -18,7 +18,7 @@ header {
  /* Style the navbar */
  #navbar {
   overflow: hidden;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(83, 65, 76);
 }
 
 /* Navbar links */
@@ -56,8 +56,9 @@ body{
 
 table{
     width: 600px;
-    margin-left: 25px;
+    margin-left: 350px;
     margin-top: 45px;
+    border-radius: 10px;
 }
 
 input{
@@ -78,7 +79,7 @@ input{
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  margin-top: 65%;
+  margin-bottom: 110px;
   color:white;
 }
 
@@ -97,7 +98,7 @@ border-radius: 15px 50px;
 }
 
 .vl {
-  border-left: 4px solid rgb(206, 18, 127);
+  border-left: 4px solid rgb(0, 0, 0);
   height: 500px;
   position: absolute;
   left: 50%;
@@ -118,31 +119,17 @@ border-radius: 15px 50px;
   top: 0;
 }
 
-.slideshowimage {
-  max-width:400px;
-  height: 300px;
-  margin-top: 550px;
-  margin-bottom:-50%;
-  padding-bottom: 50px;
-}
-
-#socialMedia{
-  width: 100%;
-  height: 250px;
-  background-color: rgb(236, 227, 216);
-  padding-bottom: 100px;
-  opacity: 1.0;
-}
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 60px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
   bottom: 100px;
   opacity: 1.0;
   margin: 5px 2px;
-  border-radius:50%;
+  border-radius:80%;
 }
 .fa:hover {
     opacity: 0.7;
@@ -171,36 +158,21 @@ border-radius: 15px 50px;
 
 #footercss{
   position:fixed;
-  background-color:rgb(206, 18, 127);
-  text-align: center;
+  background-color:rgb(0, 0, 0);
   color: white;
   width: 100%;
-  height: 80px;
+  height: 110px;
   bottom:0;
   font-weight:bold;
+  margin-top: 600px;
 }
 
-/*HTML Link Colors : https://www.w3schools.com/html/html_links_colors.asp 
-a:link {
-    color: rgb(25, 190, 25);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(236, 31, 31);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  } */
+.line{
+  background-color: rgb(0, 0, 0);
+  height: 70px;
+  width: 100%;
+  margin-top: 777px;
+}
  
 /* Zoom on Hover : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
 * {
@@ -218,4 +190,50 @@ a:link {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .smallcontainer {
+    height: 250px;
+    width: 100%;
+    margin-top: 550px;
+    margin-bottom:-60%;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  }
+     
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2px 8px;
+    color: white;
+    padding-bottom: 15px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;   
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.8;
+    height: 170px;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
   }
