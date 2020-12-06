@@ -10,7 +10,7 @@ There are various examples of web pages written in HTML, CSS, JS etc.
 <img src="WebSitesImages/registeration.png" alt="registeration"	width="700" height="500" /> 
 
 ## Code Folder : BlogLandingPage
-<img src="WebSitesImages/blogpage.jpg" alt="blogPage"	width="700" height="500" /> 
+<img src="WebSitesImages/blogpage.jpg" alt="blogPage"	width="700" height="800" /> 
 
 
 - Heroku: Cloud Application Platform https://www.heroku.com/ 
