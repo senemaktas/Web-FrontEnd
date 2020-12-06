@@ -1,43 +1,34 @@
-var imgs=document.getElementsByTagName('img'); 
+var slideIndex = 1;
+showDivs(slideIndex);
 
-var x =2;
-
-console.log(imgs[0].src);
-
-
-
-function resimEkle(){
-
-       var hedef = document.getElementById('resimDegistir');
-var firstImage = imgs[0].src + "";
-
-if(x < 6){
-hedef.src = imgs[x].src;
-x = x+1;
-
-}
-/* else kısmı kaldırılarak resim döngüsünün durması sağlanabilir.*/		
- else{
-x = 2 ;
-hedef.src = imgs[x].src;
-} 
-}
-var y=6;
-
-sil.onclick=function(){
-
-var hedefSil=document.getElementById('resimDegistir');
-
-if(hedefSil != null){
-
-y = y-1;
-
-hedefSil.src=imgs[y].src;
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
 
-else{
-
-y=6;
-
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  setTimeout(showDivs, 2000); // Change image every 2 seconds
 }
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
 }

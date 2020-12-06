@@ -23,16 +23,17 @@ body{
 #mesaj{
 	font-size:30px;
 	font-weight: bold;
+	color: white;
 }
 .baslik{
 	color:rgb(255, 255, 255);
 	font-weight:bold;
-	border-width:20px;
+	border-width:10px;
 	border:2px solid rgb(255, 255, 255);
 	text-align:center;
-	float:right;
 	margin-top: 40px;
-	margin-right:240px;
+	margin-right:290px;
+	margin-left:290px;
 	text-shadow:#ffffff 10px 10px 10px;
 }
 /* Add a black background color to the top navigation */
@@ -58,7 +59,7 @@ body{
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .topnav a.activee {
 	background-color: #4a64d8;
 	color: white;
   }
@@ -163,3 +164,7 @@ footer {
 	margin-bottom: 40px;
 	float: left;
   }
+
+  .mySlides {display:none;}
+
+  
