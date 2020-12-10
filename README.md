@@ -12,6 +12,12 @@ There are various examples of web pages written in HTML, CSS, JS etc.
 ## Code Folder : BlogLandingPage
 <img src="WebSitesImages/blogpage.jpg" alt="blogPage"	width="700" height="900" /> 
 
+## Code Folder : AdminPanel
+
+#### Login Page
+<img src="WebSitesImages/LoginPanel.png" alt="loginpanel"	width="700" height="400" /> 
+
+
 
 - Heroku: Cloud Application Platform https://www.heroku.com/ 
 - https://www.youtube.com/watch?v=Z1RJmh_OqeA
