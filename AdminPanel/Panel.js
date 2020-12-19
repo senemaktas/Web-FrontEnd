@@ -13,7 +13,7 @@ var paro=document.getElementById('parola').value;
 if((kullaniciAdi == adi) && (parola == paro)){
     
 alert('you are forwarding ..');		
- pencere = window.open(" PanelAdmin.html" );
+ pencere = window.open("PanelAdmin.html" );
  window.close();
 } 		 
 
@@ -39,4 +39,5 @@ function Haberler(veri){
 if($("satir").dblclick)
 
 function yenile(){
+}
 }
