@@ -17,6 +17,8 @@ There are various examples of web pages written in HTML, CSS, JS etc.
 #### Login Page
 <img src="WebSitesImages/LoginPanel.png" alt="loginpanel"	width="700" height="400" /> 
 
+#### Admin Page
+<img src="WebSitesImages/AdminPanelPage.png" alt="adminPanel"	width="700" height="400" /> 
 
 
 - Heroku: Cloud Application Platform https://www.heroku.com/ 
